@@ -1,0 +1,38 @@
+﻿@model CETApp.Models.UserDetails
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h4>Login User</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Index">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>           
+            <div class="form-group row">
+                <label asp-for="EmailId" class="col-sm-3 col-form-label">Email</label>
+                <div class=" col-sm-9">
+                <input asp-for="EmailId" class="form-control" />
+                <span asp-validation-for="EmailId" class="text-danger"></span>
+             </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Password" class="col-sm-3 col-form-label"></label>
+                <div class=" col-sm-9">
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+             </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="LogIn" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div style="color:red">@ViewBag.error</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

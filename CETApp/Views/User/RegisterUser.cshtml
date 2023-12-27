@@ -1,0 +1,56 @@
+﻿@model CETApp.Models.UserDetails
+
+@{
+    ViewData["Title"] = "RegisterUser";
+}
+
+<h1>Register User</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-5">
+        <form asp-action="RegisterUser">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group row">
+                <label asp-for="FirstName" class="col-sm-3 col-form-label">First Name</label>
+                <div class=" col-sm-9">
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+             </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="LastName" class="col-sm-3 col-form-label">Last Name</label>
+              <div class=" col-sm-9">
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+              </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="EmailId" class="col-sm-3 col-form-label">Email ID</label>
+              <div class=" col-sm-9">
+                <input asp-for="EmailId" class="form-control" />
+                <span asp-validation-for="EmailId" class="text-danger"></span>
+              </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Password" class="col-sm-3 col-form-label"></label>
+              <div class=" col-sm-9">
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+              </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <div style="color:forestgreen">@ViewBag.Message</div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

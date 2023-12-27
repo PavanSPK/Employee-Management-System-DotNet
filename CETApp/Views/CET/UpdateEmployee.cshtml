@@ -1,0 +1,99 @@
+﻿@model CETApp.Models.EmployeeDetails
+
+@{
+    ViewData["Title"] = "UpdateEmployee";
+}
+
+<h1>Update Employee</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <form asp-action="UpdateEmployee">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="EmployeeID" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group row">
+                <label asp-for="EmployeeFullName" class="col-sm-2 col-form-label"></label>
+                <div class=" col-sm-5">
+                    <input asp-for="EmployeeFullName" class="form-control" />
+                    <span asp-validation-for="EmployeeFullName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="EmployeeAddress" class="col-sm-2 col-form-label"></label>
+                <div class=" col-sm-5">
+                    <input asp-for="EmployeeAddress" class="form-control" />
+                    <span asp-validation-for="EmployeeAddress" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="EmployeePhone" class="col-sm-2 col-form-label"></label>
+                <div class=" col-sm-5">
+                    <input asp-for="EmployeePhone" class="form-control" />
+                    <span asp-validation-for="EmployeePhone" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="EmployeeCompany" class="col-sm-2 col-form-label"></label>
+                <div class=" col-sm-5">
+                    <input asp-for="EmployeeCompany" class="form-control" />
+                    <span asp-validation-for="EmployeeCompany" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="EmployeeJoinDate" class="col-sm-2 col-form-label"></label>
+                <div class=" col-sm-5">
+                    <input asp-for="EmployeeJoinDate" class="form-control" />
+                    <span asp-validation-for="EmployeeJoinDate" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="EmployeeExperience" class="col-sm-2 col-form-label"></label>
+                <div class=" col-sm-5">
+                    <input asp-for="EmployeeExperience" class="form-control" />
+                    <span asp-validation-for="EmployeeExperience" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="EmployeeCareerLevel" class="col-sm-2 col-form-label"></label>
+                <div class=" col-sm-5">
+                    <input asp-for="EmployeeCareerLevel" class="form-control" />
+                    <span asp-validation-for="EmployeeCareerLevel" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="EmployeeSkill" class="col-sm-2 col-form-label"></label>
+                <div class=" col-sm-5">
+                    <input asp-for="EmployeeSkill" class="form-control" />
+                    <span asp-validation-for="EmployeeSkill" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="OffShoreStartDate" class="col-sm-2 col-form-label"></label>
+                <div class=" col-sm-5">
+                    <input asp-for="OffShoreStartDate" class="form-control" />
+                    <span asp-validation-for="OffShoreStartDate" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="OffShoreEndDate" class="col-sm-2 col-form-label"></label>
+                <div class=" col-sm-5">
+                    <input asp-for="OffShoreEndDate" class="form-control" />
+                    <span asp-validation-for="OffShoreEndDate" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ListAllEmployee">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

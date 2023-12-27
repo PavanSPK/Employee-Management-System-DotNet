@@ -1,0 +1,28 @@
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\Users\sandu\OneDrive\Documents\.Net Projects\CET\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\Users\sandu\Documents\ASP.NET\CET\CET\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
